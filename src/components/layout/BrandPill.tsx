@@ -31,6 +31,7 @@ export function BrandPill(props: {
       >
         {t("global.name")}
       </span>
+      <Icon className="text-2xl" icon={Icons.PRO} />
     </div>
   );
 }
