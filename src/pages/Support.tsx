@@ -95,10 +95,10 @@ export function SupportPage() {
             <Button
               className="py px-4 box-content bg-buttons-secondary hover:bg-buttons-secondaryHover bg-opacity-90 text-buttons-secondaryText justify-center items-center inline-block"
               onClick={() =>
-                window.open("https://sussy-code.github.io/docs", "_blank")
+                window.open("https://docs.snooproxy.com", "_blank")
               }
             >
-              Sudo-Flix Docs
+              Snooproxy Docs
             </Button>
           </div>
         </Paragraph>
@@ -111,7 +111,7 @@ export function SupportPage() {
             </Item>,
             <Item title={t("support.q2.title")}>
               <Trans i18nKey="support.q2.body">
-                <MwLink to="https://github.com/sussy-code/smov" />
+                <MwLink to="https://github.com/snooproxy/snooproxy-client" />
               </Trans>
             </Item>,
           ]}
