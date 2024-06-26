@@ -8,7 +8,7 @@
 | Snooproxy Self Hosting Guide       | [snooproxy-docs](https://docs.snooproxy.com)                                                | [source code](https://github.com/snooproxy/self-hosting)      |
 | Extension                          | Work in Progress                                                                            |                                                               |
 | Proxy                              | [snooproxy-proxy](https://proxy.snooproxy.com)                                              | [source code](https://github.com/snooproxy/snooproxy-proxy)   |             
-| Backend                            | [lonelil's backend](https://mw-backend.lonelil.ru) (Our own Backend is in Development)      | Closed Source (of course, ours will be public)                |
+| Backend                            | [sudo-flix's backend](https://backend.sudo-flix.lol) (Our own Backend is in Development)    | Closed Source (of course, ours will be public)                |
 | Frontend (Client)                  | [snooproxy-client (sɴᴏᴏᴘʀᴏxʏ ᴘʀᴏ)](https://snooproxy.com)                                   | [source code](https://github.com/snooproxy/snooproxy-client)  |
 
 ***We provide these if you are not able to host yourself, though We do encourage hosting the frontend.***
