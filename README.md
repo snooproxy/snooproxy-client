@@ -10,6 +10,7 @@
 | Proxy                              | [snooproxy-proxy](https://proxy.snooproxy.com)                                              | [source code](https://github.com/snooproxy/snooproxy-proxy)   |             
 | Backend                            | [sudo-flix's backend](https://backend.sudo-flix.lol) (Our own Backend is in Development)    | Closed Source (of course, ours will be public)                |
 | Frontend (Client)                  | [snooproxy-client (sɴᴏᴏᴘʀᴏxʏ ᴘʀᴏ)](https://snooproxy.com)                                   | [source code](https://github.com/snooproxy/snooproxy-client)  |
+| Providers                          | [snooproxy-providers](https://snooproxy.com)                                                | [source code](https://github.com/snooproxy/providers)         |
 
 ***We provide these if you are not able to host yourself, though We do encourage hosting the frontend.***
 
