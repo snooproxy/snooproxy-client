@@ -1,13 +1,13 @@
 {
   "about": {
-    "description": "sudo-flix is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. sudo-flix.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "description": "Snooproxy (at least, the Pro version) is a fork of sudo-flix, which is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. Snooproxy runs on a private, self-hosted VPS. We run this site at a loss; there are no ads due to my beliefs in free media.",
     "faqTitle": "Common questions",
     "q1": {
-      "body": "sudo-flix does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by sudo-flix, everything is through this searching mechanism.",
+      "body": "Snooproxy does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by Snooproxy, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, sudo-flix does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, Snooproxy does not manage any content. All content is viewed through sources on the internet. You can try to request a show or a movie straight from the media sources instead.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
@@ -15,21 +15,21 @@
       "title": "The search results display the show or movie, why can't I play it?"
     },
     "q4": {
-      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by me, anyone is free to use this as well.",
+      "body": "All data is synced to sudo-backend (sudo-flix hosted public backend) which is independently hosted by the sudo-flix.lol team. Expect to see that change in the next few months since we are developing our own (public, open sourced) backend.",
       "title": "What about my data and stuff?"
     },
     "q5": {
-      "body": "Well sudo-flix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+      "body": "Well, Snooproxy has an email address that can be found in the footer of this page as well as a link to the source code on Github.",
       "title": "How can I find out more?"
     },
-    "title": "About sudo-flix (^▽^)"
+    "title": "About Snooproxy Pro"
   },
   "actions": {
     "copied": "Copied",
     "copy": "Copy"
   },
   "auth": {
-    "createAccount": "Don't have an account yet 😬 <0>Create an account.</0>",
+    "createAccount": "Don't have an account yet? 😬 <0>Create an account.</0>",
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
@@ -46,7 +46,7 @@
       "passphrasePlaceholder": "Passphrase",
       "submit": "Login",
       "title": "Login to your account",
-      "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
+      "validationError": "Incorrect or incomplete passphrase"
     },
     "register": {
       "information": {
@@ -81,7 +81,7 @@
     }
   },
   "errors": {
-    "badge": "It broke 💀",
+    "badge": "Oopsy-Daisy.. 😭 An error occurred",
     "details": "Error details",
     "reloadPage": "Reload the page",
     "showError": "Show error details",
@@ -89,8 +89,8 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-      "disclaimerText": "Please note: sudo-flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimer": "Disclaimer.",
+      "disclaimerText": "Please note: snooproxy, sudo-flix or movie-web does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
       "discord": "Discord",
@@ -101,7 +101,7 @@
     "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
   },
   "global": {
-    "name": "sudo-flix",
+    "name": "sɴᴏᴏᴘʀᴏxʏ ᴘʀᴏ",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -109,7 +109,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - sudo-flix",
+      "pagetitle": "{{title}} - Snooproxy",
       "register": "Register",
       "settings": "Settings"
     }
@@ -135,11 +135,11 @@
           "What are you in the mood for?",
           "Should we delete your browser history?",
           "What do you want to stream?",
-          "Sudo-Flix is the best site ever!",
+          "O-M-GGGG Snooproxy is like.... the best site everrr!",
           "What's on your watchlist today?",
           "How was your day?",
           "My bad the site never works...",
-          "Isn't sudo-flix just the best?",
+          "Isn't Snooproxy just the best?",
           ">ᴗ<"
         ]
       },
@@ -149,7 +149,8 @@
           "There's nothing here :(",
           "So empty...",
           "Such emptiness.",
-          "Hi new user :3"
+          "Hi new user :3",
+          "Yello! find something to watch :]"
         ]
       },
       "sectionTitle": "Search results",
@@ -160,31 +161,41 @@
       "day": {
         "default": "What would you like to watch this afternoon?",
         "extra": ["Have you seen Blazing Saddles?"],
-        "extra": ["Welcome to Sudo-Flix!"],
+        "extra": ["Welcome to Snooproxy!"],
         "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la Snooproxy!"],
+        "extra": ["✨ natz-natzim ✨"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
         "extra": ["I hear The Expanse is popular"],
         "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la Snooproxy!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["Go smoke and watch The Simpsons!"],
         "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la Snooproxy!"]
       },
-      "420": {
-        "default": "What would you like to watch this 4/20?",
-        "extra": ["Happy 4/20 🥳!"]
+      "703": {
+        "default": "What would you like to watch this 7/3?",
+        "extra": ["Happy 7/3 Y'all! 🥳"]
       },
-      "69": {
-        "default": "Up for something spicy?",
-        "extra": ["Happy 69 day 😘!"]
+      "401": {
+        "default": "Snooproxy is Shutting Down. 🔗More Info.",
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["April Fools! 🥳 (we're not shutting down lol)"],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
+        "extra": ["Snooproxy is Shutting Down. 🔗More Info."],
       }
     }
   },
@@ -203,7 +214,7 @@
     "menu": {
       "about": "About us",
       "logout": "Log out",
-      "register": "Sync to sudo-cloud",
+      "register": "Sync to Snoop-backend",
       "settings": "Settings",
       "support": "Support",
       "discover": "Discover"
@@ -219,7 +230,7 @@
   "downtimeNotice": {
     "badge": "Issues",
     "goHome": "Go home",
-    "message": "sudo-flix.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "message": "Snooproxy is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
     "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
     "title": "Provider issues"
   },
@@ -227,7 +238,7 @@
     "defaultConfirm": {
       "cancel": "Cancel",
       "confirm": "Use default setup",
-      "description": "The default setup does not have the best streams and can be unbearably slow. ( ͠° ͟ʖ ͡°)",
+      "description": "The default Snooproxy setup is best for beginners or if you want an easy, straight away watching experience, ALTHOUGH we REALLY recommend you to consider hosting your own proxy OR use the Snooproxy extension 🙌",
       "title": "Are you sure?"
     },
     "extension": {
@@ -240,12 +251,12 @@
       "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
       "notDetectingAction": "Reload page",
       "status": {
-        "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
+        "disallowed": "Extension is not enabled for this page..",
         "disallowedAction": "Enable extension",
         "failed": "Failed to request status",
         "loading": "Waiting for you to install the extension",
         "outdated": "Extension version too old",
-        "success": "Extension is working as expected!"
+        "success": "Extension is loaded and working as expected!"
       },
       "submit": "Continue",
       "title": "Let's start with an extension"
@@ -268,7 +279,7 @@
       "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
       "options": {
         "default": {
-          "text": "I don't want good quality streams,<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
+          "text": "I just want to continue and start watching,<0 /> <1>use the default setup</1>"
         },
         "extension": {
           "action": "Install extension",
@@ -283,7 +294,7 @@
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with sudo-flix 🥳"
+      "title": "Let's get you setup with Snooproxy 🥳"
     }
   },
   "overlays": {
@@ -299,11 +310,11 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. Snooproxy does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "hlsDisclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. Snooproxy does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -323,7 +334,7 @@
       },
       "episodes": {
         "button": "Episodes",
-        "emptyState": "There are no episodes in this season, check back later (sorry :3)...",
+        "emptyState": "There are no episodes in this season, check back later...",
         "episodeBadge": "E{{episode}}",
         "loadingError": "Error loading season",
         "loadingList": "Loading...",
@@ -362,8 +373,8 @@
           "title": "No embeds found"
         },
         "noStream": {
-          "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
-          "title": "No stream :("
+          "text": "This source has no streams for this movie or show.",
+          "title": "No stream found :("
         },
         "title": "Sources",
         "unknownOption": "Unknown"
@@ -380,7 +391,7 @@
         },
         "title": "Subtitles",
         "unknownLanguage": "Unknown",
-        "dropSubtitleFile": "Drop subtitle file here! >_<",
+        "dropSubtitleFile": "Drop subtitle file here!",
         "scrapeButton": "Scrape subtitles",
         "empty": "There are no provided subtitles for this."
       }
@@ -398,7 +409,7 @@
       "extensionPermission": {
         "badge": "Permission Missing",
         "button": "Use extension",
-        "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
+        "text": "You have the browser extension, but we need your permission to get started using the extension.",
         "title": "Configure the extension"
       },
       "failed": {
@@ -410,7 +421,7 @@
       "notFound": {
         "badge": "Not found",
         "homeButton": "Back to home",
-        "text": "We couldn't find the media you requested. Either it's been removed or you tampered with the URL (naughty, naughty).",
+        "text": "We couldn't find the media you requested. Either it's been removed or you tampered with the URL.",
         "title": "Couldn't find that media."
       }
     },
@@ -435,7 +446,7 @@
     "scraping": {
       "items": {
         "failure": "Error occurred",
-        "notFound": "Doesn't have the video (╥﹏╥)",
+        "notFound": "Doesn't have the video 😢",
         "pending": "Checking for videos..."
       },
       "notFound": {
@@ -451,7 +462,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the sudo-flix extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the Snooproxy extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -461,17 +472,17 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the quick challenge, this is to keep sudo-flix safe.",
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep Snooproxy safe.",
       "error": "Failed to verify your humanity! Please try again.",
       "title": "Are You a Robot 🤖?",
-      "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
+      "verifyingHumanity": "Verifying your humanity... (via Backend's configured CAPTCHA of choice)"
     }
   },
   "support": {
     "title": "Support",
-    "text": "sudo-flix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "text": "Snooproxy is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
-      "body": "Well, you can join the official <0>sudo-flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "Well, you can email the address provided at the bottom of this page.",
       "title": "Where can I get help?"
     },
     "q2": {
@@ -481,8 +492,8 @@
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to sudo-flix's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
-      "title": "DMCA :("
+      "text": "Welcome to Snooproxy's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (based on sudo-flix), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "title": "DMCA"
     },
     "loadingApp": "Loading application",
     "loadingUser": "Loading your profile",
@@ -508,7 +519,7 @@
       },
       "admin": {
         "title": "Admin panel",
-        "text": "Utilize tools made for testing sudo-flix's condition.",
+        "text": "Utilize tools made for testing Snooproxy services condition.",
         "button": "Check it out"
       },
       "actions": {
@@ -537,7 +548,7 @@
       },
       "register": {
         "cta": "Get started",
-        "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
+        "text": "Share your watch progress between devices and keep them synced. 🥳",
         "title": "Sync to the cloud"
       },
       "title": "Account"
@@ -566,15 +577,15 @@
           "description": "It seems that one or more items in this setup need your attention.",
           "title": "Something needs your attention 😱"
         },
-        "itemError": "There is something wrong with this setting. Go through setup again to fix it. (ᴗ_ ᴗ。)",
+        "itemError": "There is something wrong with this setting. Go through setup again to fix it. 😢",
         "items": {
-          "default": "Default setup",
+          "default": "Default setup (Snooproxy's Proxy)",
           "extension": "Extension",
           "proxy": "Custom proxy"
         },
         "redoSetup": "Redo setup",
         "successStatus": {
-          "description": "All things are in place for you to start watching your favorite media. (๑>◡<๑)",
+          "description": "All things are in place for you to start watching your favorite media. ✨",
           "title": "Everything is set up!"
         },
         "unsetStatus": {
@@ -584,9 +595,9 @@
       },
       "title": "Connections",
       "workers": {
-        "addButton": "Add new worker",
+        "addButton": "Add new worker (Basically, a fancy way to say \"yOuR oWN pRoXY\")",
         "description": "To make the application function, all traffic is routed through proxies. Enable this if you want to bring your own workers. <0>Instructions.</0>",
-        "emptyState": "No workers yet (｡•́︿•̀｡), add one below",
+        "emptyState": "No workers yet, add one below",
         "label": "Use custom proxy workers",
         "urlLabel": "Worker URLs",
         "urlPlaceholder": "https://"
@@ -596,7 +607,7 @@
       "language": "Application language",
       "languageDescription": "Language applied to the entire application, only English has silly stuff 🙁.",
       "thumbnail": "Generate thumbnails",
-      "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they can make your video slower.",
+      "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they CAN make your connection slower...",
       "thumbnailLabel": "Generate thumbnails",
       "autoplay": "Autoplay",
       "autoplayDescription": "Automatically play the next episode in a series after reaching the end. Can be enabled by users with the browser extension, a custom proxy, or with the default setup if allowed by the host.",
@@ -616,7 +627,7 @@
         "insecure": "Insecure",
         "notLoggedIn": "You are not logged in",
         "secure": "Secure",
-        "title": "App stats (for nerds) 🤓",
+        "title": "App stats",
         "unknownVersion": "Unknown",
         "userId": "User ID"
       }
@@ -625,11 +636,11 @@
       "backgroundLabel": "Background opacity",
       "backgroundBlurLabel": "Background blur",
       "colorLabel": "Color",
-      "previewQuote": "Would you rather have a thot daughter or a gay son? 🤔",
+      "previewQuote": "Fun Fact: We had so much hard time choosing a fact, DEVELOPMENT was cut just to think which one to put 🤣",
       "textSizeLabel": "Text size",
       "title": "Subtitles",
       "textBoldLabel": "Bold text"
     },
-    "unsaved": "You have unsaved changes... ฅ^•ﻌ•^ฅ"
+    "unsaved": "You have unsaved changes... 😅"
   }
 }
