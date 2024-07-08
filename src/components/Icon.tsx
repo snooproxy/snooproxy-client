@@ -68,10 +68,9 @@ export enum Icons {
   BRUSH = "brush",
   UPLOAD = "upload",
   WEB = "web",
-  PRO = "pro_badge",
+  PRO = "s_logo",
   SMALL_WEB = "small_web",
   S_LOGO = "pro_badge",
-  TESTING = "s_logo"
 }
 
 export interface IconProps {
