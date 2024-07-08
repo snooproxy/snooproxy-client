@@ -70,7 +70,7 @@ export enum Icons {
   WEB = "web",
   PRO = "pro_badge",
   SMALL_WEB = "small_web",
-  S_LOGO = "s_logo",
+  S_LOGO = "pro_badge",
 }
 
 export interface IconProps {
