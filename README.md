@@ -1,53 +1,17 @@
-# Snooproxy Pro   
+please note that this client is deprecated.
+we are doing our best trying to develop a client that will not fucking shut down every tuesday
+currently migrating to vidbinge WHVX client. don't worry as snooproxy will continue development of the new client.
+note that we absolutely do not condone piracy of any kind ever. the original idea was to make movie-web closed source for educational purposes, as we thought about it, remaining the service open sourced can be a nice idea.
+not to make others clone it for themselves for piracy related stuff, but for people who want to see how things work or try to play and change with things. like me. this client of snooproxy was history as no one ever used it and will remain history.
+note that we are doing our best and running it at a lost. running this stuff takes a lot of money, time and effort.
+vercel gives us a headache
+the domain costs money
+the shitty chinese backend hosting service that we use is well, shitty.
+developing all this stuff takes time and effort, and we do it even when nobody uses our services.
+thanks.
+Snooproxy Team.
+JLM, ISR
+snooproxy@duck.com
+hellosnooproxy@gmail.com
 
-**We *do not* endorse piracy of any kind. We simply enjoy programming and large user counts.**
-
-## Links And Resources
-| Service                            | Link                                                                                        | Source Code                                                   |
-|------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| Snooproxy Self Hosting Guide       | [snooproxy-docs](https://docs.snooproxy.com)                                                | [source code](https://github.com/snooproxy/self-hosting)      |
-| Extension                          | Work in Progress                                                                            |                                                               |
-| Proxy                              | [snooproxy-proxy](https://proxy.snooproxy.com)                                              | [source code](https://github.com/snooproxy/snooproxy-proxy)   |             
-| Backend                            | [sudo-flix's backend](https://backend.sudo-flix.lol) (Our own Backend is in Development)    | Closed Source (of course, ours will be public)                |
-| Frontend (Client)                  | [snooproxy-client (sɴᴏᴏᴘʀᴏxʏ ᴘʀᴏ)](https://snooproxy.com)                                   | [source code](https://github.com/snooproxy/snooproxy-client)  |
-| Providers                          | [snooproxy-providers](https://snooproxy.com)                                                | [source code](https://github.com/snooproxy/providers)         |
-
-***We provide these if you are not able to host yourself, though We do encourage hosting the frontend.***
-
-
-## Referrers
-- [Piracy Subreddit Megathread](https://www.reddit.com/r/Piracy/s/iymSloEpXn)
-- [Toon's Instances](https://erynith.github.io/movie-web-instances)
-- Search Engines: DuckDuckGo, Bing, Google
-- Rentry.co
-
-
-## Running Locally
-Type the following commands into your terminal / command line to run Snooproxy locally
-```bash
-git clone https://github.com/snooproxy/snooproxy-client.git snprxy
-cd snprxy
-git pull
-pnpm install
-pnpm run dev
-```
-Then you can visit the local instance [here](http://localhost:5173) or, at local host on port 5173.
-
-
-## Updating a Snooproxy Instance
-To update a Snooproxy instance you can type the below commands into a terminal at the root of your project.
-```bash
-git remote add upstream https://github.com/snooproxy/snooproxy-client.git
-git fetch upstream # Grab the contents of the new remote source
-git checkout <YOUR_MAIN_BRANCH>  # Most likely this would be `origin/main`
-git merge upstream/main
-# * Fix any conflicts present during merge *
-git add .  # Add all changes made during merge and conflict fixing
-git commit -m "Update Snooproxy instance (merge upstream/main)"
-git push  # Push to YOUR repository
-```
-
-
-## Contact Us
-**Email:** *[hello@snooproxy.com](mailto:hello@snooproxy.com)*
-
+p.s. I suggest making snooproxy closed source as an archive. if of course developing a new client would not take 3,000,000,000 years.
